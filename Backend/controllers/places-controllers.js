@@ -36,6 +36,7 @@ const getPlaceById = async (req, res, next) => {
   }
 
   res.json({ place: place.toObject({ getters: true }) }); // => { place } => { place: place }
+  // getters:true allows us to create id in addition to _id. to make it clear
 };
 
 // function getPlaceById() { ... }
