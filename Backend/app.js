@@ -27,7 +27,7 @@ app.use((error, req, res, next) => {
 });
 
 const connectUrl =
-  'mongodb+srv://mergorgec:BNfrL4MxVyuWUslo@place-sharer-wmlr6.mongodb.net/test?retryWrites=true&w=majority';
+  'mongodb+srv://mergorgec:xxx@place-sharer-wmlr6.mongodb.net/test?retryWrites=true&w=majority';
 const connectConfig = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
