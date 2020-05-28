@@ -46,8 +46,7 @@ app.use((error, req, res, next) => {
   res.json({ message: error.message || 'An unknown error occurred!' });
 });
 
-const connectUrl =
-  'mongodb+srv://mergorgec:@place-sharer-wmlr6.mongodb.net/mern?retryWrites=true&w=majority';
+const connectUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@place-sharer-wmlr6.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
 const connectConfig = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
