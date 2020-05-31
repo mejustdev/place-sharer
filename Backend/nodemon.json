@@ -1,7 +1,7 @@
 {
   "env": {
     "DB_USER": "mergorgec",
-    "DB_PASSWORD": "mexRQoTTTIfrUKry",
+    "DB_PASSWORD": "g5oFf9Sga4vxCeRv",
     "DB_NAME": "mern",
     "JWT_KEY": "supersecret_key"
   }
