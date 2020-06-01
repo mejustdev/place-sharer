@@ -1,0 +1,123 @@
+[debug] [2020-06-01T00:00:43.188Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:00:43.191Z] Command:       C:\Program Files\nodejs\node.exe C:\usr\local\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-01T00:00:43.192Z] CLI Version:   8.4.1
+[debug] [2020-06-01T00:00:43.192Z] Platform:      win32
+[debug] [2020-06-01T00:00:43.192Z] Node Version:  v12.14.0
+[debug] [2020-06-01T00:00:43.194Z] Time:          Mon Jun 01 2020 02:00:43 GMT+0200 (Central European Summer Time)
+[debug] [2020-06-01T00:00:43.194Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:00:43.194Z] 
+[debug] [2020-06-01T00:00:43.204Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-01T00:00:43.205Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mt\Repositories\place-sharer
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using oplkuy. 
+[debug] [2020-06-01T00:00:48.554Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/oplkuy  
+ 
+[debug] [2020-06-01T00:00:48.927Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 01 Jun 2020 00:00:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-06-01T00:01:41.829Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:01:41.832Z] Command:       C:\Program Files\nodejs\node.exe C:\usr\local\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-01T00:01:41.832Z] CLI Version:   8.4.1
+[debug] [2020-06-01T00:01:41.833Z] Platform:      win32
+[debug] [2020-06-01T00:01:41.833Z] Node Version:  v12.14.0
+[debug] [2020-06-01T00:01:41.834Z] Time:          Mon Jun 01 2020 02:01:41 GMT+0200 (Central European Summer Time)
+[debug] [2020-06-01T00:01:41.835Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:01:41.835Z] 
+[debug] [2020-06-01T00:01:41.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-01T00:01:41.850Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mt\Repositories\place-sharer
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using placeshare. 
+[debug] [2020-06-01T00:01:50.536Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/placeshare  
+ 
+[debug] [2020-06-01T00:01:50.888Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Mon, 01 Jun 2020 00:01:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-01T00:01:50.888Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-06-01T00:01:50.890Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-06-01T00:01:50.941Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\usr\local\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\usr\local\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\usr\local\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (C:\usr\local\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:210:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (C:\usr\local\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:299:28)
+    at IncomingMessage.emit (events.js:215:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1184:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[error] 
+[error] Error: Failed to get Firebase project placeshare. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-06-01T00:02:04.343Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:02:04.346Z] Command:       C:\Program Files\nodejs\node.exe C:\usr\local\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-06-01T00:02:04.346Z] CLI Version:   8.4.1
+[debug] [2020-06-01T00:02:04.346Z] Platform:      win32
+[debug] [2020-06-01T00:02:04.346Z] Node Version:  v12.14.0
+[debug] [2020-06-01T00:02:04.348Z] Time:          Mon Jun 01 2020 02:02:04 GMT+0200 (Central European Summer Time)
+[debug] [2020-06-01T00:02:04.348Z] ----------------------------------------------------------------------
+[debug] [2020-06-01T00:02:04.348Z] 
+[debug] [2020-06-01T00:02:04.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-01T00:02:04.362Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mt\Repositories\place-sharer
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
